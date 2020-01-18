@@ -1,0 +1,78 @@
+.text-dev
+{
+  color: #98CA3F;
+  background-color: #E6F2C7;
+}
+
+.display-5
+{
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.years
+{
+  color: #FFB25B;
+}
+
+.icon
+{
+  width: 36px;
+  height: 36px;
+  text-decoration: none;
+}
+
+.center-separator
+{
+  display: flex;
+  line-height: 12px;
+  color: #FFB25B;
+  font-size: 12px;
+}
+
+.center-separator::after
+{
+  content: '';
+  display: inline-block;
+  flex-grow: 1;
+  margin-top: 0.5em;
+  background: #98CA3F;
+  height: 2px;
+  margin-left: 2px;
+}
+
+#linkedin
+{
+  font-size: 24px;
+  text-decoration: none;
+  color: #0E76A8;
+}
+
+#github
+{
+  font-size: 24px;
+  text-decoration: none;
+  color: #333333;
+}
+
+#facebook
+{
+  font-size: 24px;
+  text-decoration: none;
+  color: #3B5998;
+}
+
+#outlook
+{
+  font-size: 24px;
+  text-decoration: none;
+  color: rgb(64, 122, 248);
+}
+
+#whatsapp
+{
+  font-size: 24px;
+  text-decoration: none;
+  color: #25d366;
+}
